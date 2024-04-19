@@ -11,7 +11,7 @@ def afficher_accueil():
 
     st.title("Les résultats de mon école")
 
-    image = Image.open("Gomycode.png")
+    image = Image.open("school_app/Gomycode.png")
     st.image(image, caption="Image de gomycode sur twitter", use_column_width=True)
 
 
