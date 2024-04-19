@@ -7,7 +7,7 @@ def afficher_information():
     st.warning("CE SEONT DES DONNEES FICTIVES GENEREES, PAS DE DONNEES REELLES")
 
     # Charger le fichier CSV
-    df = pd.read_csv("data.csv")
+    df = pd.read_csv("school_app/data.csv")
 
     # Affichage du dataframe
     st.write(df)
