@@ -7,7 +7,7 @@ def afficher_data_exploration():
     st.title("Data Exploration")
 
     # Charger le fichier CSV
-    df = pd.read_csv("data.csv")
+    df = pd.read_csv("school_app/data.csv")
 
     # Information sur les données
 
