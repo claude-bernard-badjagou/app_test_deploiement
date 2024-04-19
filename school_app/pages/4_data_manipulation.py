@@ -7,7 +7,7 @@ def afficher_data_manipulation():
     st.title("Data Manipulation")
 
     # Charger le fichier CSV
-    df = pd.read_csv("data.csv")
+    df = pd.read_csv("school_app/data.csv")
 
 
     # Excel étant une matière facultative alors nous pouvons remplacer les valeurs manquantes par 0
